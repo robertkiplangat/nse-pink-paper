@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>NSE Pink Paper — The Matrix</title>
+
+    <meta name="description"
+        content="NSE Pink Paper: an independent Kenyan investing idea about M-Pesa, participation, and The Pendulum.">
+
+    <meta name="keywords"
+        content="NSE, Nairobi Securities Exchange, Kenya stocks, investing Kenya, M-Pesa, dividends, NSE Pink Paper, The Pendulum">
+
+    <meta name="author" content="Robert Kiplangat">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://robert-kiplangat.github.io/nse-pink-paper/">
+
+    <!-- Open Graph / LinkedIn -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="NSE Pink Paper — The Matrix">
+    <meta property="og:description"
+        content="What happens when M-Pesa limits meet the price of a stock?">
+    <meta property="og:url"
+        content="https://robert-kiplangat.github.io/nse-pink-paper/">
+    <meta property="og:site_name" content="NSE Pink Paper">
+    <meta property="og:image"
+        content="https://robert-kiplangat.github.io/nse-pink-paper/assets/og-image.png">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "NSE Pink Paper — The Matrix",
+        "description": "An independent thought experiment about M-Pesa, stock accessibility and The Pendulum.",
+        "author": {
+            "@type": "Person",
+            "name": "Robert Kiplangat",
+            "url": "https://www.linkedin.com/in/robert-kiplangat/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "NSE Pink Paper"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://robert-kiplangat.github.io/nse-pink-paper/"
+        }
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg: #fbfaf8;
+            --text: #171717;
+            --muted: #6f6f6f;
+            --line: #e5e2de;
+            --accent: #d81b60;
+            --max: 760px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: Georgia, "Times New Roman", serif;
+            line-height: 1.75;
+        }
+
+        header,
+        main,
+        footer {
+            width: min(calc(100% - 40px), var(--max));
+            margin: auto;
+        }
+
+        header {
+            padding: 48px 0 24px;
+        }
+
+        .brand {
+            font-family: Arial, sans-serif;
+            font-weight: 800;
+            letter-spacing: .08em;
+            font-size: .78rem;
+            text-transform: uppercase;
+        }
+
+        .brand span {
+            color: var(--accent);
+        }
+
+        .kicker {
+            margin-top: 80px;
+            font-family: Arial, sans-serif;
+            color: var(--muted);
+            font-size: .78rem;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: clamp(2.8rem, 8vw, 5.8rem);
+            line-height: .98;
+            margin: 12px 0 24px;
+            letter-spacing: -.04em;
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            line-height: 1.1;
+            margin-top: 80px;
+        }
+
+        p {
+            font-size: 1.08rem;
+            margin: 0 0 24px;
+        }
+
+        .hook {
+            font-size: 1.35rem;
+            line-height: 1.55;
+        }
+
+        .emphasis {
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .rule {
+            border: 0;
+            border-top: 1px solid var(--line);
+            margin: 64px 0;
+        }
+
+        .donate {
+            display: inline-block;
+            margin: 8px 0 36px;
+            padding: 11px 16px;
+            border: 1px solid var(--text);
+            color: var(--text);
+            text-decoration: none;
+            border-radius: 999px;
+            font-family: Arial, sans-serif;
+            font-size: .86rem;
+            font-weight: 700;
+        }
+
+        .donate:hover {
+            background: var(--text);
+            color: white;
+        }
+
+        footer {
+            border-top: 1px solid var(--line);
+            margin-top: 80px;
+            padding: 28px 0 60px;
+            color: var(--muted);
+            font-family: Arial, sans-serif;
+            font-size: .82rem;
+        }
+
+        .share {
+            font-family: Arial, sans-serif;
+            font-size: .85rem;
+            margin: 36px 0;
+        }
+
+        .share a {
+            color: inherit;
+            margin-right: 16px;
+        }
+
+        @media (max-width: 600px) {
+
+            header,
+            main,
+            footer {
+                width: min(calc(100% - 28px), var(--max));
+            }
+
+            header {
+                padding-top: 28px;
+            }
+
+            .kicker {
+                margin-top: 48px;
+            }
+
+            p {
+                font-size: 1.02rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">NSE <span>Pink Paper</span></div>
+    </header>
+
+    <main>
+
+        <div class="kicker">Prototype / Issue 001</div>
+
+        <h1>The Matrix</h1>
+
+        <p class="hook">
+            I have just met the Matrix. It resides inside M-Pesa.
+        </p>
+
+        <p>
+            You see, here's the thing. There are limits. You have your first
+            KSh 250,000 transaction, and then another KSh 250,000. KSh 500,000
+            in total. And I started wondering: what happens when you take those
+            limits and place them next to the price of a stock?
+        </p>
+
+        <p>
+            Suppose a stock is below KSh 250,000. You can buy it. There is still
+            room. But what happens as the price starts moving up? KSh 300,000.
+            KSh 400,000. KSh 500,000. And then beyond?
+        </p>
+
+        <p>
+            Something changes.
+        </p>
+
+        <hr class="rule">
+
+        <h2>The Pendulum</h2>
+
+        <p>
+            This is where I discovered what I call
+            <strong>The Pendulum</strong>.
+        </p>
+
+        <p>
+            <strong>
+                The Pendulum is the window where participation is still practical
+                for the ordinary investor.
+            </strong>
+            In this thought experiment, I use the M-Pesa transaction limits
+            to illustrate that idea.
+        </p>
+
+        <p>
+            Think about it. A stock is at KSh 100,000. You are in the Pendulum.
+            It moves to KSh 150,000, KSh 200,000, KSh 250,000. The price is moving,
+            but you are still within the range where you can participate.
+        </p>
+
+        <p>
+            Then the Pendulum starts swinging the other way.
+        </p>
+
+        <p>
+            The stock moves to KSh 300,000, KSh 400,000, KSh 500,000.
+            Participation becomes progressively more difficult through this
+            payment channel. And once it moves beyond KSh 500,000, the ordinary
+            M-Pesa buyer has been stopped out. Two KSh 250,000 transactions are
+            no longer enough to buy one share.
+        </p>
+
+        <p class="emphasis">
+            You've been stopped out.
+        </p>
+
+        <p>
+            And that is where <strong>Being On The Pendulum</strong> comes in.
+            Being On The Pendulum means you got into the stock while it was still
+            below the lower M-Pesa transaction boundary. You got on the bus before
+            everyone started trying to get on.
+        </p>
+
+        <p>
+            The idea isn't that M-Pesa magically determines what a stock is worth.
+            The idea is that as the price moves, the ability of ordinary investors
+            to participate can change with it. So perhaps the question isn't only,
+            “How high can this stock go?” Perhaps it is also,
+            “Am I already on the bus before it gets there?”
+        </p>
+
+        <hr class="rule">
+
+        <h2>Buy One Share</h2>
+
+        <p>
+            Instead of
+            <a href="https://www.buymeacoffee.com/belyon">
+                buy me a coffee
+            </a>,
+            just buy 1 stock of the cheapest stock in the Nairobi Securities
+            Exchange that pays dividend and forget about it.
+        </p>
+
+        <p>
+            So, <strong>#KenyansAreTheMatrix</strong> it was never about the
+            person who has the most amount of money wins, it has always been
+            about whoever was <strong>On The Pendulum</strong> wins.
+        </p>
+
+    </main>
+
+    <footer>
+
+        <div>
+            NSE Pink Paper — independent writing about markets, ownership and ideas.
+        </div>
+
+        <div style="margin-top:8px;">
+            This is an opinion/thought experiment, not investment advice.
+        </div>
+
+    </footer>
+
+    <!--
+    ANALYTICS / ADS — add only after the site identity and domain are final.
+
+    1. Google Search Console:
+       Verify the final GitHub Pages domain and submit sitemap.xml.
+
+    2. Analytics:
+       Add Google Analytics 4 or another privacy-conscious analytics provider.
+
+    3. Ads:
+       Do NOT add ad scripts yet. First establish traffic, readership and
+       a final domain. Then add Google AdSense or another suitable network.
+
+    4. SEO:
+       Add sitemap.xml, robots.txt, canonical URL, Open Graph image,
+       Article JSON-LD, and a stable URL for each future Pink Paper.
+
+    5. Social:
+       LinkedIn should point to the canonical article URL so the page
+       receives a clean preview and accumulates a single shareable URL.
+    -->
+
+</body>
+
+</html>
