@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://robert-kiplangat.github.io/nse-pink-paper/sitemap.xml
+Sitemap: https://robertkiplangat.github.io/nse-pink-paper/sitemap.xml
